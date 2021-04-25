@@ -3,16 +3,16 @@ using namespace std;
 
 int main()
 {
+    int answer = 0;
     string s;
     getline(cin,s);
     set<char> res;
     for(int i=0;i<s.length();i++)
         res.insert(s[i]);
-        if(res.size()==2)
-            cout<<0;
-        if(res.size()==3)
-            cout<<1;
-        else
-            cout<<res.size()-4;
+    if(res.size()>3)
+    answer = res.size()-4;
+    else if(res.size()==3)
+    answer = 1;
+    cout<<answer;
     return 0;
 }

@@ -7,7 +7,7 @@ int main()
     char turn;cin>>turn;
     string s;cin>>s;
     string key ="qwertyuiopasdfghjkl;zxcvbnm,./";
-    if(turn = 'R')
+    if(turn == 'R')
         k = -1;
     else
         k = +1;

@@ -2,11 +2,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+int main()
+{
 ios::sync_with_stdio(0);
 cin.tie(0);
 
-int main()
-{
     int n,h,w=0;
     cin>>n>>h;
     int a[n];
